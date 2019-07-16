@@ -1,0 +1,29 @@
+{
+  "name": "html-pdf-nodejs",
+  "version": "1.0.0",
+  "description": "Sample code pretty html to pdf using html-pdf lib. Nodejs",
+  "main": "main-express.js",
+  "scripts": {
+    "koa": "node -r esm main-koa.js",
+    "express": "node ./main-express.js"
+  },
+  "keywords": [
+    "html to pdf",
+    "nodejs pdf",
+    "koajs pdf",
+    "koa pdf",
+    "express pdf",
+    "expressjs pdf"
+  ],
+  "author": "martin chuka",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "html-pdf": "^2.2.0",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25"
+  }
+}
